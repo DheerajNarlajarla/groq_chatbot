@@ -1,0 +1,6 @@
+#Dependencies to run a chatbot over groq API
+distro==1.9.0
+httpx==0.28.1
+groq==0.20.0
+transformers==4.49.0
+datasets==3.4.1
