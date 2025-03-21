@@ -1,40 +1,5 @@
-# Install necessary packages
-!pip install groq
-# Other libraries if needed (for processing, transformers, etc.)
-!pip install transformers datasets
-from groq import Groq
 import json
-import os
-import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingArguments
-
-
-# Install necessary packages
-!pip install crewai  # This is the package name according to documentation
-
-# Other libraries if needed (for processing, transformers, etc.)
-!pip install transformers datasets
-
-import json
-import os
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingArguments
-
-
-# Install necessary packages
-!pip install crewai  # This is the package name according to documentation
-
-# Other libraries if needed (for processing, transformers, etc.)
-!pip install transformers datasets
-
-import json
-import os
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingArguments
-
-
-import os
-
 from groq import Groq
 
 client = Groq(
